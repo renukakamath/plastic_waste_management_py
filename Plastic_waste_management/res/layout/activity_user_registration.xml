@@ -1,0 +1,118 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user Registration"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="First Name"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etlast"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="Last Name"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Phone"
+        android:ems="10"
+        android:maxLength="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/ethname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="House Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etplace"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="Place"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etpincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Pincode"
+        android:ems="10"
+        android:maxLength="6"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etuname"
+        android:layout_marginTop="20dp"
+        android:hint="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:ems="10"
+        android:maxLength="16"
+        android:inputType="textPassword" />
+    
+    <Button
+        android:id="@+id/btreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="REGISTER" />
+
+    </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,63 @@
+{% include 'companyheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Waste Collection</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			{% if data['updateprt']%}
+			<tr>
+				<th><font color="red">Agent Name</font></th>
+				<td><input type="text" name="aname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['NAME']}}">
+			</td>
+			</tr>
+			<tr>
+				<th><font color="red">Waste Quantity</font></th>
+			<td><input type="text" name="quan" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['waste_quantity']}}"></td>
+		</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Agent Name</font></th>
+				<td><select name="aname" class="form-control" required="" style="width:90%;height: 40px">
+					<option>Select</option>
+					{% for row in data['agent']%}
+					<option value="{{row['agent_id']}}">{{row['NAME']}}</option>
+					{% endfor %}
+				</select>
+			</td>
+			</tr>
+			<tr>
+				<th><font color="red">Waste Quantity</font></th>
+			<td><input type="text" name="quan" class="form-control" required="" style="width:90%;height: 40px"></td>
+		</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+		<br><br><br>
+			<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+				<h1 align="center"><font color="red"><u>Waste Collection</u></font></h1>
+				<tr>
+					<th><font color="red">Company Name</font></th>
+					<th><font color="red">Agent Name</font></th>
+					<th><font color="red">Waste Quantity</font></th>
+					<th><font color="red">Datetime</font></th>
+				</tr>
+				<tbody>
+				{% for row in data['waste']%}
+				<td>{{row['com_name']}}</td>
+				<td>{{row['NAME']}}</td>
+				<td>{{row['waste_quantity']}}</td>
+				<td>{{row['datetime']}}</td>
+				<td><a href="?action=update&id={{row['collection_id']}}">Update</a></td>
+				<td><a href="?action=delete&id={{row['collection_id']}}">Delete</a></td>
+			</tbody>
+				{% endfor %}
+			</table>
+	</form>
+{% include 'footer.html'%}

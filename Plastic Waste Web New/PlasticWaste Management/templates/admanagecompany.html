@@ -1,0 +1,94 @@
+{% include 'adminheader.html'%}
+
+<ul class="cd-radial-slider" data-radius1="60" data-radius2="1364" data-centerx1="110" data-centerx2="1290">
+	<li class="visible"> 
+		<div class="svg-wrapper">
+			<svg viewBox="0 0 1400 800">
+				<title>Animated SVG</title>
+				<defs>
+					<clipPath id="cd-image-1">
+						<circle id="cd-circle-1" cx="110" cy="400" r="1364"/>
+					</clipPath>
+				</defs> 
+				<image height='1000px' width="1400px" clip-path="url(#cd-image-1)" xlink:href="/static/images/back.jpg"></image>
+			</svg>
+		</div> <!-- .svg-wrapper --> 
+		<div class="cd-radial-slider-content">
+			<div class="wrapper">
+				<div>
+					<form method="post" style="background-color:rgba(0,0,0,.3);padding: 15px;border-radius: 10px;">			
+	<h1 align="center"><font color="#fff"><u>Manage Company</u></font></h1>
+
+		<table  align="center" class="table text-white" style="width:700px;background-color:transparent;color:white">
+			{% if data['updateprt']%}
+			<tr>
+				<th><font color="white">Company Name</font></th>
+				<td><input type="text" name="cname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['com_name']}}"></td>
+			</tr>
+			<tr>
+				<th><font color="white">Phone</font></th>
+				<td><input type="text" name="phone" class="form-control" pattern="[7-9]{1}[0-9]{9}"  maxlength="10"required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['phone']}}"></td>
+			</tr>
+			<tr>
+				<th><font color="white">Email</font></th>
+				<td><input type="email" name="email" class="form-control"  pattern=".+@gmail\.com" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['email']}}"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="#000"><input type="submit" name="update" value="Update" class="btn btn-warning" ></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table text-white" style="width:700px;background-color:transparent;color: white;">
+			<tr>
+				<th><font color="white">Company Name</font></th>
+				<td><input type="text" name="cname" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="white">Phone</font></th>
+				<td><input type="text" name="phone" pattern="[7-9]{1}[0-9]{9}" required=""  maxlength="10" class="form-control" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="white">Email</font></th>
+				<td><input type="email" name="email" class="form-control"  pattern=".+@gmail\.com" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="white">Username</font></th>
+				<td><input type="text" name="username" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="white">Password</font></th>
+			<td><input type="password" name="password" class="form-control" required="" style="width:90%;height: 40px"></td>
+			<tr>
+				<td colspan="2" align="center"><font color="#000"><input type="submit" name="submit" value="ADD" class="btn btn-success" ></font></td>
+			</tr>
+		</table>
+		{% endif %}
+		</form>
+
+				</div>
+			</div>
+		</div> <!-- .cd-radial-slider-content -->
+	</li> 
+
+
+
+			<table  align="center" class="table" style="width:700px;background-color:#ffffff">
+				<h1 align="center"><font color="#000"><u>Manage Comapany</u></font></h1>
+					<tr>
+					<th><font color="#000">Company Name</font></th>
+					<th><font color="#000">Phone</font></th>
+					<th><font color="#000">Email</font></th>
+				</tr>
+				<tbody>
+					{% for row in data['com']%}
+					<td>{{row['com_name']}}</td>
+					<td>{{row['phone']}}</td>
+					<td>{{row['email']}}</td>
+				<td><a href="?action=update&lid={{row['log_id']}}" class="btn btn-warning">Update</a></td>
+				<td><a href="?action=delete&lid={{row['log_id']}}" class="btn btn-danger">Delete</a></td>
+				</tbody>
+					{% endfor %}
+		</table>
+
+	</form>
+{% include 'footer.html'%}

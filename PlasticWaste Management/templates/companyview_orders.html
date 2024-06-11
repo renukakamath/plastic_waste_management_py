@@ -1,0 +1,35 @@
+{% include 'companyheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Orders detatils</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Date</font></th>
+				<th><font color="red">Company Name</font></th>
+				<th><font color="red">User Name</font></th>
+				<th><font color="red">Product Name</font></th>
+				<th><font color="red">Quantity</font></th>
+				<th><font color="red">Total Amount</font></th>
+				<th><font color="red">Status</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['order']%}
+				<td>{{row['date']}}</td>
+				<td>{{row['com_name']}}</td>
+				<td>{{row['NAME']}}</td>
+				<td>{{row['pro_name']}}</td>
+				<td>{{row['quantity']}}</td>
+				<td>{{row['total_amount']}}</td>
+				{%if row['delivery_status']=="ordered" %}
+				
+				<td><a href="/company/accept?id={{row['pd_id']}}">Accept</a></td>
+				<td><a href="/company/reject?id1={{row['pd_id']}}">Reject</a></td>
+				{% else %}
+				<td>{{row['delivery_status']}}</td>
+				{% endif %}
+			</tbody>
+			{% endfor %}
+		</table>
+	</form>
+{% include 'footer.html' %}

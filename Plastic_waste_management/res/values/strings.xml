@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plastic_waste_management</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_home">User_home</string>
+    <string name="title_activity_agent_home">Agent_home</string>
+    <string name="title_activity_user_registration">User_registration</string>
+    <string name="title_activity_user_collection_request">User_collection_request</string>
+    <string name="title_activity_user_search_product">User_search_product</string>
+    <string name="title_activity_user_purchase">User_purchase</string>
+    <string name="title_activity_user_feedback">User_feedback</string>
+    <string name="title_activity_agent_assigned_routes">Agent_assigned_routes</string>
+    <string name="title_activity_agent_waste_user">Agent_waste_user</string>
+    <string name="title_activity_agent_product_delivery">Agent_product_delivery</string>
+    <string name="title_activity_user_payment">User_payment</string>
+
+</resources>

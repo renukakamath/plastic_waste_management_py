@@ -1,0 +1,42 @@
+{% include 'publicheader.html'%}
+
+<li class="visible"> 
+	<div class="svg-wrapper">
+		<svg viewBox="0 0 1400 800">
+			<title>Animated SVG</title>
+			<defs>
+				<clipPath id="cd-image-1">
+					<circle id="cd-circle-1" cx="110" cy="400" r="1364"/>
+				</clipPath>
+			</defs> 
+			<image height='1000px' width="1400px" clip-path="url(#cd-image-1)" xlink:href="/static/images/3.jpeg"></image>
+		</svg>
+	</div> <!-- .svg-wrapper --> 
+	<div class="cd-radial-slider-content">
+		<div class="wrapper">
+			<div>
+				<form method="post" style="background-color:#fff;padding: 15px;border-radius: 10px;height: 300px;">
+	<h1 align="center"><font color="#000"><u>LOGIN</u></font></h1><br><br>
+	
+		<table  align="center" class="table" style="width:700px;">
+			<tr>
+				<th><font color="#000">Username</font></th>
+				<td><input type="text" name="username" class="form-control" requi#000="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="#000">Password</font></th>
+			<td><input type="password" name="password" class="form-control" requi#000="" style="width:90%;height: 40px"></td>
+		</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="#000"><input type="submit" name="submit" value="Login" class="btn btn-success" ></font></td>
+			</tr>
+		</table>
+	</form>
+			</div>
+		</div>
+	</div> <!-- .cd-radial-slider-content -->
+</li> 
+
+
+
+{% include 'footer.html'%}

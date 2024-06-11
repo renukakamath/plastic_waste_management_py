@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-hdpi_button_bg.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-hdpi\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_home.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_agent_waste_user.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\agent_waste_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_collection_request.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_collection_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_search_product.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_search_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_user_feedback.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\user_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_user_home.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\user_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_login.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_user_search_product.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\user_search_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-hdpi_layout_bg.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-hdpi\\layout_bg.xml"
+    },
+    {
+        "merged": "com.example.plastic_waste_management.app-merged_res-9:/layout_cust_images.xml.flat",
+        "source": "com.example.plastic_waste_management.app-main-11:/layout/cust_images.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_cust_text.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\cust_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-hdpi_bot1.png.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-hdpi\\bot1.png"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_registration.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_feedback.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_user_collection_request.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\user_collection_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-hdpi_bg_layout.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-hdpi\\bg_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_user_purchase.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\user_purchase.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_agent_home.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_agent_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_agent_assigned_routes.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\agent_assigned_routes.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_agent_home.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\agent_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_agent_assigned_routes.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_agent_assigned_routes.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_payment.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_agent_product_delivery.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_agent_product_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_agent_product_delivery.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\agent_product_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_agent_waste_user.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_agent_waste_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_user_payment.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\user_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_view_my_orders.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_view_my_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-hdpi_plas.png.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-hdpi\\plas.png"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\drawable-hdpi_pla.png.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\drawable-hdpi\\pla.png"
+    },
+    {
+        "merged": "com.example.plastic_waste_management.app-merged_res-9:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.plastic_waste_management.app-main-11:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_user_purchase.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_user_purchase.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_waste_payment.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_waste_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\menu_user_registration.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\menu\\user_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-merged_res-9:\\layout_activity_ipsetting.xml.flat",
+        "source": "C:\\Users\\renuk\\.gradle\\daemon\\7.3.3\\com.example.plastic_waste_management.app-main-11:\\layout\\activity_ipsetting.xml"
+    }
+]

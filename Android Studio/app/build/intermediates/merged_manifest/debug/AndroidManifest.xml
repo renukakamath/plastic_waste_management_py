@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plastic_waste_management"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/pla"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.plastic_waste_management.Waste_payment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.plastic_waste_management.User_view_my_orders"
+            android:exported="false" />
+        <activity
+            android:name="com.example.plastic_waste_management.Login"
+            android:label="@string/app_name" />
+        <activity android:name="com.example.plastic_waste_management.IPsetting" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.plastic_waste_management.User_home"
+            android:label="@string/title_activity_user_home" />
+        <activity
+            android:name="com.example.plastic_waste_management.Agent_home"
+            android:label="@string/title_activity_agent_home" />
+        <activity
+            android:name="com.example.plastic_waste_management.User_registration"
+            android:label="@string/title_activity_user_registration" />
+        <activity
+            android:name="com.example.plastic_waste_management.User_collection_request"
+            android:label="@string/title_activity_user_collection_request" />
+        <activity
+            android:name="com.example.plastic_waste_management.User_search_product"
+            android:label="@string/title_activity_user_search_product" />
+        <activity
+            android:name="com.example.plastic_waste_management.User_purchase"
+            android:label="@string/title_activity_user_purchase" />
+        <activity
+            android:name="com.example.plastic_waste_management.User_feedback"
+            android:label="@string/title_activity_user_feedback" />
+
+        <service android:name="com.example.plastic_waste_management.LocationService" />
+
+        <activity
+            android:name="com.example.plastic_waste_management.Agent_assigned_routes"
+            android:label="@string/title_activity_agent_assigned_routes" />
+        <activity
+            android:name="com.example.plastic_waste_management.Agent_waste_user"
+            android:label="@string/title_activity_agent_waste_user" />
+        <activity
+            android:name="com.example.plastic_waste_management.Agent_product_delivery"
+            android:label="@string/title_activity_agent_product_delivery" />
+        <activity
+            android:name="com.example.plastic_waste_management.User_payment"
+            android:label="@string/title_activity_user_payment" />
+    </application>
+
+</manifest>

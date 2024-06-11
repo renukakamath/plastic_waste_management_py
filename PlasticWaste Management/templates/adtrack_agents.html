@@ -1,0 +1,22 @@
+{% include 'adminheader.html'%}
+
+	<body>
+	<br><br>
+	<h1 align="center"><font color="red">Track Agents</font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Agent Name</font></th>
+				<th><font color="red">Contact</font></th>
+				<th><font color="red">Email</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['track']%}
+				<td>{{row['NAME']}}</td>
+				<td>{{row['phone']}}</td>
+				<td>{{row['email']}}</td>
+			</tbody>
+			{% endfor %}
+		</table>
+	</form>
+{% include 'footer.html'%}

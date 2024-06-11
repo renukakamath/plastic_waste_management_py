@@ -1,0 +1,75 @@
+{% include 'adminheader.html'%}
+<body>
+	<ul class="cd-radial-slider" data-radius1="60" data-radius2="1364" data-centerx1="110" data-centerx2="1290" >
+		<li class="visible"> 
+			<div class="svg-wrapper">
+				<svg viewBox="0 0 1400 800">
+					<title>Animated SVG</title>
+					<defs>
+						<clipPath id="cd-image-1">
+							<circle id="cd-circle-1" cx="110" cy="400" r="1364"/>
+						</clipPath>
+					</defs> 
+					<image height='1000px' width="1400px" clip-path="url(#cd-image-1)" xlink:href="/static/images/back.jpg"></image>
+				</svg>
+			</div> <!-- .svg-wrapper --> 
+			<div class="cd-radial-slider-content">
+				<div class="wrapper">
+					<div>
+						<br><br>
+						<form method="post" >
+		<h1 align="center"><font color="white"><u>Manage Routes</u></font></h1>
+		<table  align="center" class="table" style="width:700px;background-color:#ffffff">
+			{% if data['updateprt']%}
+			<tr>
+				<th><font color="red">Routes Name</font></th>
+				<td><input type="text" name="rname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['route_name']}}" ></td>
+			</tr>
+			<tr>
+				<th><font color="red">Route Description</font></th>
+				<td><textarea name="rdes" class="form-control" required="" style="width:90%;height: 140px"> {{data['updateprt'][0]['route_des']}}</textarea></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" class="btn btn-success" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:rgba(0,0,0,.3)">
+			<tr>
+				<th><font color="white">Route Name</font></th>
+				<td><input type="text" name="rname" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="white">Route Description</font></th>
+				<td><textarea name="rdes" class="form-control" required="" style="width:90%;height: 140px"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" class="btn btn-danger" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+			
+
+	</form>
+	
+					</div>
+				</div>
+			</div> <!-- .cd-radial-slider-content -->
+		</li> 
+		<table  align="center" class="table" style="width:700px;background-color:#ededed">
+			<h1 align="center"><font color="red"><u>Manage Routes</u></font></h1>
+				<tr>
+				<th><font color="red">Route Name</font></th>
+				<th><font color="red">Route Description</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['route']%}
+				<td>{{row['route_name']}}</td>
+				<td>{{row['route_des']}}</td>
+				<td><a class="btn btn-success" href="?action=update&id={{row['route_id']}}">Update</a></td>
+				<td><a class="btn btn-success" href="?action=delete&id={{row['route_id']}}">Delete</a></td>
+			</tbody>
+				{% endfor %}
+	</table>
+{% include 'footer.html'%}

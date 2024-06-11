@@ -1,0 +1,258 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:1-77:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\renuk\.gradle\caches\transforms-3\f9d64e14c042d69360539e39f061100a\transformed\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\05de8c41fdde52fe1c7dc583b599de44\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\7b6a9d62f76beb57997c2f7a85eb7dd4\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\b319cdf409e7f0460e505fca0cf75089\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\4ea55d372c88d9be5b6cb4a872a2b4b6\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\34e2ad4b9ab67d2628732683836f9358\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\72cd64a2687b4d8364d05e95cde30976\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\cad7c295978b37762433bd6f5c588faa\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\fca23ba7f17ee81ae114b96cb3d01d71\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\d635870cacc85af38cd70ce95dfa2e4f\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\02c7c27e0bf349e06f1016650dda935b\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\74b716f0ad4dcf56f5c7fc0946d016aa\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\1e130ef18ee11f6947793133c28da5ad\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\2a62daea3d8e304ef0649b1cdb575cea\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\995c56ad534730271b261e560e01031f\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\85e8df90276e95c75de3fa04945b018a\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\e7362334cd1213ac78943fcf9a0c347f\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\f1262345d2b446166d9f25df83fba582\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\82711e4d476ef53ba07a726c74a65562\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\d4d6c834871cad8b70c2a83f8b4e9371\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\7df65d354b7fdda3717e92e4dffe69bc\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\b8332bfea85bf1436d2854231f8cf1a5\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\bcb9b869b128858eb294509ac37175b8\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\52f155cb03c6ba4a6d984234c04ce745\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\56b5f8f891bbf5004dde6fd8f3a41740\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\a6ecb995697bd303955a24b5b471c55f\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\a6241402297407ce1c7a0fc4679f918e\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:1-77:12
+	package
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\renuk\.gradle\caches\transforms-3\f9d64e14c042d69360539e39f061100a\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\renuk\.gradle\caches\transforms-3\f9d64e14c042d69360539e39f061100a\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\05de8c41fdde52fe1c7dc583b599de44\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\05de8c41fdde52fe1c7dc583b599de44\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\7b6a9d62f76beb57997c2f7a85eb7dd4\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\7b6a9d62f76beb57997c2f7a85eb7dd4\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\b319cdf409e7f0460e505fca0cf75089\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\b319cdf409e7f0460e505fca0cf75089\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\4ea55d372c88d9be5b6cb4a872a2b4b6\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\4ea55d372c88d9be5b6cb4a872a2b4b6\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\34e2ad4b9ab67d2628732683836f9358\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\34e2ad4b9ab67d2628732683836f9358\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\72cd64a2687b4d8364d05e95cde30976\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\72cd64a2687b4d8364d05e95cde30976\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\cad7c295978b37762433bd6f5c588faa\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\cad7c295978b37762433bd6f5c588faa\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\fca23ba7f17ee81ae114b96cb3d01d71\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\fca23ba7f17ee81ae114b96cb3d01d71\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\d635870cacc85af38cd70ce95dfa2e4f\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\d635870cacc85af38cd70ce95dfa2e4f\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\02c7c27e0bf349e06f1016650dda935b\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\02c7c27e0bf349e06f1016650dda935b\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\74b716f0ad4dcf56f5c7fc0946d016aa\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\74b716f0ad4dcf56f5c7fc0946d016aa\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\1e130ef18ee11f6947793133c28da5ad\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\1e130ef18ee11f6947793133c28da5ad\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\2a62daea3d8e304ef0649b1cdb575cea\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\2a62daea3d8e304ef0649b1cdb575cea\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\995c56ad534730271b261e560e01031f\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\995c56ad534730271b261e560e01031f\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\85e8df90276e95c75de3fa04945b018a\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\85e8df90276e95c75de3fa04945b018a\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\e7362334cd1213ac78943fcf9a0c347f\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\e7362334cd1213ac78943fcf9a0c347f\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\f1262345d2b446166d9f25df83fba582\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\f1262345d2b446166d9f25df83fba582\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\82711e4d476ef53ba07a726c74a65562\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\82711e4d476ef53ba07a726c74a65562\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\d4d6c834871cad8b70c2a83f8b4e9371\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\d4d6c834871cad8b70c2a83f8b4e9371\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\7df65d354b7fdda3717e92e4dffe69bc\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\7df65d354b7fdda3717e92e4dffe69bc\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\b8332bfea85bf1436d2854231f8cf1a5\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\b8332bfea85bf1436d2854231f8cf1a5\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\bcb9b869b128858eb294509ac37175b8\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\bcb9b869b128858eb294509ac37175b8\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\52f155cb03c6ba4a6d984234c04ce745\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\52f155cb03c6ba4a6d984234c04ce745\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\56b5f8f891bbf5004dde6fd8f3a41740\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\56b5f8f891bbf5004dde6fd8f3a41740\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\a6ecb995697bd303955a24b5b471c55f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\renuk\.gradle\caches\transforms-3\a6ecb995697bd303955a24b5b471c55f\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\a6241402297407ce1c7a0fc4679f918e\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\a6241402297407ce1c7a0fc4679f918e\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:14:22-72
+application
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:16:5-75:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\renuk\.gradle\caches\transforms-3\f9d64e14c042d69360539e39f061100a\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\renuk\.gradle\caches\transforms-3\f9d64e14c042d69360539e39f061100a\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\85e8df90276e95c75de3fa04945b018a\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\85e8df90276e95c75de3fa04945b018a\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\e7362334cd1213ac78943fcf9a0c347f\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\e7362334cd1213ac78943fcf9a0c347f\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:20:9-52
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\renuk\.gradle\caches\transforms-3\85e8df90276e95c75de3fa04945b018a\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:18:9-37
+	android:allowBackup
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:21:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:22:9-44
+activity#com.example.plastic_waste_management.Waste_payment
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:24:13-42
+activity#com.example.plastic_waste_management.User_view_my_orders
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:27:13-48
+activity#com.example.plastic_waste_management.Login
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:29:9-31:48
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:30:13-34
+activity#com.example.plastic_waste_management.IPsetting
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:32:9-38:20
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:32:19-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:36:27-74
+activity#com.example.plastic_waste_management.User_home
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:39:9-41:64
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:41:13-61
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:40:13-38
+activity#com.example.plastic_waste_management.Agent_home
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:42:9-44:65
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:44:13-62
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:43:13-39
+activity#com.example.plastic_waste_management.User_registration
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:45:9-47:72
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:47:13-69
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:46:13-46
+activity#com.example.plastic_waste_management.User_collection_request
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:48:9-50:78
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:50:13-75
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:49:13-52
+activity#com.example.plastic_waste_management.User_search_product
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:51:9-53:74
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:53:13-71
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:52:13-48
+activity#com.example.plastic_waste_management.User_purchase
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:54:9-56:68
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:56:13-65
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:55:13-42
+activity#com.example.plastic_waste_management.User_feedback
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:57:9-59:68
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:59:13-65
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:58:13-42
+service#com.example.plastic_waste_management.LocationService
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:61:9-52
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:61:18-49
+activity#com.example.plastic_waste_management.Agent_assigned_routes
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:63:9-65:76
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:65:13-73
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:64:13-50
+activity#com.example.plastic_waste_management.Agent_waste_user
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:66:9-68:71
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:68:13-68
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:67:13-45
+activity#com.example.plastic_waste_management.Agent_product_delivery
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:69:9-71:77
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:71:13-74
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:70:13-51
+activity#com.example.plastic_waste_management.User_payment
+ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:72:9-74:67
+	android:label
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:74:13-64
+	android:name
+		ADDED from C:\Users\renuk\OneDrive\Desktop\RISS\python\PMG College\Plastic Waste\Android Studio\app\src\main\AndroidManifest.xml:73:13-41

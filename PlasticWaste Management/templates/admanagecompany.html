@@ -1,0 +1,76 @@
+{% include 'adminheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Manage Company</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			{% if data['updateprt']%}
+			<tr>
+				<th><font color="red">Company Name</font></th>
+				<td><input type="text" name="lname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['com_name']}}" readonly=""></td>
+			</tr>
+			<tr>
+				<th><font color="red">Phone</font></th>
+				<td><input type="text" name="phone" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['phone']}}"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Email</font></th>
+				<td><input type="email" name="email" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['email']}}"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Username</font></th>
+				<td><input type="text" name="username" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['username']}}" readonly=""></td>
+			</tr>
+			<tr>
+				<th><font color="red">Password</font></th>
+			<td><input type="text" name="password" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['password']}}" readonly=""></td>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Company Name</font></th>
+				<td><input type="text" name="cname" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Phone</font></th>
+				<td><input type="text" name="phone" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Email</font></th>
+				<td><input type="email" name="email" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Username</font></th>
+				<td><input type="text" name="username" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Password</font></th>
+			<td><input type="password" name="password" class="form-control" required="" style="width:90%;height: 40px"></td>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+			<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+				<h1 align="center"><font color="red"><u>Manage Comapany</u></font></h1>
+					<tr>
+					<th><font color="red">Company Name</font></th>
+					<th><font color="red">Phone</font></th>
+					<th><font color="red">Email</font></th>
+				</tr>
+				<tbody>
+					{% for row in data['com']%}
+					<td>{{row['com_name']}}</td>
+					<td>{{row['phone']}}</td>
+					<td>{{row['email']}}</td>
+				<td><a href="?action=update&id={{row['com_id']}}&id1={{data['id1']}}">Update</a></td>
+				<td><a href="?action=delete&id={{row['com_id']}}&id1={{row['log_id']}}">Delete</a></td>
+				</tbody>
+					{% endfor %}
+		</table>
+
+	</form>
+{% include 'footer.html'%}

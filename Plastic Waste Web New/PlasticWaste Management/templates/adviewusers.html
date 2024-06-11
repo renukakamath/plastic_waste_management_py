@@ -1,0 +1,31 @@
+{% include 'adminheader.html'%}
+
+	<body>
+		<div style="width: 100%;height: 300px;background-image: url('/static/images/back.jpg');background-size: cover;">
+
+		</div>
+	<br>
+	<h1 align="center"><font color="red">User Details</font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:1000px;background-color:#ffffff">
+			<tr>
+				<th><font color="red">Name</font></th>
+				<th><font color="red">Contact</font></th>
+				<th><font color="red">Email</font></th>
+				<th><font color="red">House Name</font></th>
+				<th><font color="red">Place</font></th>
+				<th><font color="red">Pincode</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['user']%}
+				<td>{{row['NAME']}}</td>
+				<td>{{row['phone']}}</td>
+				<td>{{row['email']}}</td>
+				<td>{{row['hname']}}</td>
+				<td>{{row['place']}}</td>
+				<td>{{row['pincode']}}</td>
+			</tbody>
+			{% endfor %}
+		</table>
+	</form>
+{% include 'footer.html'%}

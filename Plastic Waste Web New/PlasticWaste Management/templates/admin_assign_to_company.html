@@ -1,0 +1,27 @@
+{% include 'adminheader.html'%}
+<body>
+	<div style="width: 100%;height: 300px;background-image: url('/static/images/back.jpg');background-size: cover;">
+
+	</div><br>
+	<h1 align="center"><font color="red"><u>Comapany Detailr</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:1000px;background-color:#ffffff">
+				<h1 align="center"><font color="red"><u> </u></font></h1>
+					<tr>
+					<th><font color="red">Company Name</font></th>
+					<th><font color="red">Phone</font></th>
+					<th><font color="red">Email</font></th>
+				</tr>
+				<tbody>
+					{% for row in data['com']%}
+					<td>{{row['com_name']}}</td>
+					<td>{{row['phone']}}</td>
+					<td>{{row['email']}}</td>
+				<td><a href="?action=assign&id={{row['com_id']}}&request_id={{ data['request_id'] }}">Assign</a></td>
+				</tbody>
+					{% endfor %}
+		</table>
+	</form></body>
+
+	
+{% include 'footer.html'%}

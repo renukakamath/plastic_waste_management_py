@@ -1,0 +1,20 @@
+{% include 'publicheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>LOGIN</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Username</font></th>
+				<td><input type="text" name="username" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Password</font></th>
+			<td><input type="password" name="password" class="form-control" required="" style="width:90%;height: 40px"></td>
+		</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Login" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+	</form>
+{% include 'footer.html'%}

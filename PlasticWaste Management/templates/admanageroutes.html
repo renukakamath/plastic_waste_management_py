@@ -1,0 +1,53 @@
+{% include 'adminheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Manage Routes</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			{% if data['updateprt']%}
+			<tr>
+				<th><font color="red">Routes Name</font></th>
+				<td><input type="text" name="rname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['route_name']}}" readonly=""></td>
+			</tr>
+			<tr>
+				<th><font color="red">Route Description</font></th>
+				<td><textarea name="rdes" class="form-control" required="" style="width:90%;height: 140px"> {{data['updateprt'][0]['route_des']}}</textarea></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Route Name</font></th>
+				<td><input type="text" name="rname" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Route Description</font></th>
+				<td><textarea name="rdes" class="form-control" required="" style="width:90%;height: 140px"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+			<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+				<h1 align="center"><font color="red"><u>Manage Routes</u></font></h1>
+					<tr>
+					<th><font color="red">Route Name</font></th>
+					<th><font color="red">Route Description</font></th>
+				</tr>
+				<tbody>
+					{% for row in data['route']%}
+					<td>{{row['route_name']}}</td>
+					<td>{{row['route_des']}}</td>
+					<td><a href="?action=update&id={{row['route_id']}}">Update</a></td>
+					<td><a href="?action=delete&id={{row['route_id']}}">Delete</a></td>
+				</tbody>
+					{% endfor %}
+		</table>
+
+	</form>
+{% include 'footer.html'%}

@@ -1,0 +1,55 @@
+{% include 'companyheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Manage Stocks</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			{% if data['updatepart']%}
+			<tr>
+				<th><font color="red">Availability</font></th>
+			<td><input type="text" name="aval" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updatepart'][0]['availability']}}"></td>
+		</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Product Name</font></th>
+				<td><input type="text" name="upname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['pro_name']}}"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Availability</font></th>
+			<td><input type="text" name="aval" class="form-control" required="" style="width:90%;height: 40px"></td>
+		</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+		<br><br><br>
+				<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+					<h1 align="center"><font color="red"><u>Manage Stocks</u></font></h1>
+					<tr>
+						<th><font color="red">Company Name</font></th>
+						<th><font color="red">Product Name</font></th>
+						<th><font color="red">Availabilty</font></th>
+						<th><font color="red">Date</font></th>
+					</tr>
+					
+						{% for row in data['sto']%}
+						<tbody>
+						<tr>
+						<td>{{row['com_name']}}</td>
+						<td>{{row['pro_name']}}</td>
+						<td>{{row['availability']}}</td>
+						<td>{{row['updated_date']}}</td>
+						<td><a href="?action=update&id1={{row['stock_id']}}&id={{row['pro_id']}}">Update</a></td>
+						<td><a href="?action=delete&id1={{row['stock_id']}}&id={{ data['id'] }}">Delete</a></td>
+						</tr>
+					</tbody>
+					{% endfor %}
+				</table>
+	</form>
+{% include 'footer.html'%}

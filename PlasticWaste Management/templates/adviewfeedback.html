@@ -1,0 +1,22 @@
+{% include 'adminheader.html'%}
+
+	<body>
+	<br><br>
+	<h1 align="center"><font color="red">Feedback</font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Date</font></th>
+				<th><font color="red">Name</font></th>
+				<th><font color="red">Feedback</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['feed']%}
+				<td>{{row['date']}}</td>
+				<td>{{row['NAME']}}</td>
+				<td>{{row['feedback']}}</td>
+			</tbody>
+			{% endfor %}
+		</table>
+	</form>
+{% include 'footer.html'%}

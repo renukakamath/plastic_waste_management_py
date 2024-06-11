@@ -1,0 +1,23 @@
+{% include 'companyheader.html'%}
+<body>
+	
+	<br><br><br><br><br><br>
+	<h1 align="center"><font color="red"><u>Assign Agents</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Agent</font></th>
+				<td><select name="agent_id" class="form-control">
+					{% for row in data['asgn_agent'] %}
+					<option value="{{ row['agent_id'] }}">{{ row['ag_name'] }}</option>
+					{% endfor %}
+				</select></td>
+				
+			</tr>
+			<tr>
+				<td align="center" colspan="2"><input type="submit" class="btn btn-success" name="assign_agent" value="ASSIGN"></td>
+			</tr>
+			
+		</table>
+	</form>
+{% include 'footer.html' %}
